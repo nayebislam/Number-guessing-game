@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    background: rgb(146, 139, 139);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    padding: 40px 30px;
+    background: #123524;
+    width: 400px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 30px;
+    border-radius: 30px;
+    display: none;
+}
+
+.first{
+    display: flex;
+}
+
+.box h2{
+    color: rgb(221, 218, 218);
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.box .inputfild input{
+    width: 100%;
+    padding: 10px 20px;
+    color: white;
+    background: transparent;
+    outline: none;
+    border: 1px solid #EFE3C2;
+    border-radius: 5px;
+}
+
+.box .inputfild{
+    position: relative;
+}
+
+.box .inputfild .error{
+    position: absolute;
+    left: 0;
+    top: 110%;
+    color: #880b0b;
+    font-size: 12px;
+}
+
+.box .inputfild input::placeholder{
+    color: #acacac;
+}
+
+.box .submit{
+    padding: 10px 0;
+    font-size: 18px;
+    background: #EFE3C2;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.second{
+    background: #3E7B27;
+}
+
+.third{
+    background: #85A947;
+}
+
+.third h2{
+    color: #09122C;
+}
+
+.third .inputfild input{
+    border: 1px solid #09122C;
+    color: #09122C;
+}
+
+.third .inputfild input::placeholder{
+    color: #09122C;
+}
+
+.third .submit{
+    background:#3E7B27 ;
+}
+
+.fourth{
+    background: #EFE3C2;
+}
+
+.fourth h2{
+    color: #09122C;
+}
+
+.fourth .inputfild input{
+    border: 1px solid #09122C;
+    color: #09122C;
+}
+
+.fourth .inputfild input::placeholder{
+    color: #09122C;
+}
+
+.fourth .submit{
+    background:#86A788;
+}
+
+.result{
+    background: #86A788;
+}
